@@ -1,0 +1,28 @@
+{
+  "name": "fermata-chargify",
+  "version": "0.10.5",
+  "description": "Chargify plugin for Fermata",
+  "main": "fermata-chargify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natevw/fermata-chargify.git"
+  },
+  "keywords": [
+    "chargify",
+    "rest",
+    "api",
+    "fermata"
+  ],
+  "author": "Nathan Vander Wilt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natevw/fermata-chargify/issues"
+  },
+  "homepage": "https://github.com/natevw/fermata-chargify",
+  "peerDependencies": {
+    "fermata": "git://github.com/natevw/fermata.git#upcoming"
+  }
+}
