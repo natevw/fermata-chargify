@@ -1,6 +1,6 @@
 {
   "name": "fermata-chargify",
-  "version": "0.10.5",
+  "version": "0.10.6",
   "description": "Chargify plugin for Fermata",
   "main": "fermata-chargify.js",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/natevw/fermata-chargify",
   "peerDependencies": {
-    "fermata": "git://github.com/natevw/fermata.git#upcoming"
+    "fermata": "^0.11.0-alpha3b"
   }
 }
