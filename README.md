@@ -12,6 +12,13 @@ This is a standard [Fermata plugin](https://github.com/natevw/fermata#plugins), 
 
 Here's what using this plugin can look like:
 
+    // (boilerplate plugin setup)
+    var fermata = require('fermata'),
+        _chargify_plugin = require('fermata-chargify');
+    f.registerPlugin('chargify', _chargify_plugin);
+    
+    
+    // example usage(s) once imported
     var site = fermata.chargify("my-site", "secret key");
     
     site.subscriptions.get(function(e, d) {
