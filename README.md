@@ -5,20 +5,20 @@ This is a Chargify API plugin for [Fermata](https://github.com/natevw/fermata). 
 
 ## Setup
 
-This is a standard [Fermata plugin](https://github.com/natevw/fermata#plugins), so please see that documentation or take a look at the the [Fermata CouchDB plugin docs](https://github.com/natevw/fermata-couchdb#setup) for example setup.
+This is a standard [Fermata plugin](https://github.com/natevw/fermata#plugins), so please see that documentation for complete background. Due to the sensitive API key, this plugin is recommended *only* for server-side usage (e.g. **not** in browser or Electron app…).
+
+After your preferred equivalent of `npm install fermata fermata-chargify`, register this plugin e.g.:
+
+    var fermata = require('fermata');
+    fermata.registerPlugin('chargify', require('fermata-chargify'));
+
+Then you can use `fermata.chargify(…)` to create instances of one or more Chargify API subdomains.
 
 
 ## Example usage
 
-Here's what using this plugin can look like:
-
-    // (boilerplate plugin setup)
-    var fermata = require('fermata'),
-        _chargify_plugin = require('fermata-chargify');
-    f.registerPlugin('chargify', _chargify_plugin);
+Here's what using this plugin can look like after it is set up:    
     
-    
-    // example usage(s) once imported
     var site = fermata.chargify("my-site", "secret key");
     
     site.subscriptions.get(function(e, d) {
