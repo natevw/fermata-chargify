@@ -34,7 +34,7 @@ Here's what using this plugin can look like:
     
 ## Plugin API
 
-The following documentation assumes this plugin has been registered into `'fermata'` with the name `'twitter'`:
+The following documentation assumes this plugin has been registered into `'fermata'` with the name `'chargify'`:
 
 - `fermata.chargify(site_name, api_key)` — Returns a "URL proxy" object for Chargify's API (at "https://your-site-name.chargify.com") with authorization credentials configured.
 
