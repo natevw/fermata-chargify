@@ -1,7 +1,5 @@
 # fermata-chargify
 
-**NOTE**: the currently-published fermata@0.10.6 already bundles this plugin, this is split out for an upcoming version!
-
 This is a Chargify API plugin for [Fermata](https://github.com/natevw/fermata). It takes care of just a few boring bits, leaving you with raw unfettered Fermata-style direct usage of the bona fide Chargify API.
 
 
